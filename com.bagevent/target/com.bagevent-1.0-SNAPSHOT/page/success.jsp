@@ -12,7 +12,6 @@
     <title>Title</title>
 </head>
 <body>
-    <p>userLoginLog</p>
     <table border="1" width="500" align="center">
         <tr>
             <th>login_id</th>

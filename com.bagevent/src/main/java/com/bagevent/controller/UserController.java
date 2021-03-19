@@ -24,6 +24,7 @@ public class UserController {
     public String register(User user, Map map){
         ServerResponse<String> register = userService.register(user);
         map.put("mes",register.getMes());
+        System.out.println("haha");
         return "register";
     }
 
